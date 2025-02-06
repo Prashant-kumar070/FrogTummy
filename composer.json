@@ -16,5 +16,8 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "author":{
+        "name": "Prashant Kumar"
+    }
 }
