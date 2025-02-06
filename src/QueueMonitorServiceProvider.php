@@ -14,14 +14,24 @@ class QueueMonitorServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
-        $this->loadViewsFrom(__DIR__.'/views', 'queue-monitor'); // Auto-load views
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        if ($this->app->runningInConsole()) {
+         if ($this->app->runningInConsole()) {
             $this->commands([
                 QueueMonitorCommand::class,
             ]);
+
+            // Publish Config
+            $this->publishes([
+                __DIR__.'/../config/queue-monitor.php' => config_path('queue-monitor.php'),
+            ], 'config');
         }
+
+        // ✅ Load Package Routes Automatically
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+
+        // ✅ Load Package Migrations
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+
+        // ✅ Load Package Views
+        $this->loadViewsFrom(__DIR__.'/../views', 'queue-monitor');
     }
-    
 }
