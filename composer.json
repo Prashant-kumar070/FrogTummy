@@ -1,0 +1,20 @@
+{
+    "name": "frogtummy/queue-monitor",
+    "description": "A real-time dashboard for Laravel queued jobs.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Frogtummy\\QueueMonitor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Frogtummy\\QueueMonitor\\QueueMonitorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
