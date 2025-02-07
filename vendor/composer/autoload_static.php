@@ -9,12 +9,12 @@ class ComposerStaticInit0227df081d0a2b0f140060873a94485b
     public static $prefixLengthsPsr4 = array (
         'F' => 
         array (
-            'Frogtummy\\QueueMonitor\\' => 23,
+            'QBeacon\\QueueMonitor\\' => 23,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Frogtummy\\QueueMonitor\\' => 
+        'QBeacon\\QueueMonitor\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

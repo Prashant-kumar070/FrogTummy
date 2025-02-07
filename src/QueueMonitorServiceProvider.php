@@ -1,9 +1,9 @@
 <?php
 
-namespace Frogtummy\QueueMonitor;
+namespace QBeacon\QueueMonitor;
 
 use Illuminate\Support\ServiceProvider;
-use Frogtummy\QueueMonitor\Commands\QueueMonitorCommand; // Import the command
+use QBeacon\QueueMonitor\Commands\QueueMonitorCommand; // Import the command
 
 class QueueMonitorServiceProvider extends ServiceProvider
 {

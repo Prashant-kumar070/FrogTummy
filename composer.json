@@ -1,17 +1,17 @@
 {
-    "name": "frogtummy/queue-monitor",
+    "name": "qbeacon/queue-monitor",
     "description": "A real-time dashboard for Laravel queued jobs.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Frogtummy\\QueueMonitor\\": "src/"
+            "QBeacon\\QueueMonitor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Frogtummy\\QueueMonitor\\QueueMonitorServiceProvider"
+                "QBeacon\\QueueMonitor\\QueueMonitorServiceProvider"
             ]
         }
     },

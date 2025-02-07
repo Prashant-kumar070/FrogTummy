@@ -1,6 +1,6 @@
 <?php
 
-namespace Frogtummy\QueueMonitor\Commands;
+namespace QBeacon\QueueMonitor\Commands;
 
 use Illuminate\Console\Command;
 

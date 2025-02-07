@@ -1,5 +1,5 @@
 <?php
-use Frogtummy\QueueMonitor\Models\QueueMonitor;
+use QBeacon\QueueMonitor\Models\QueueMonitor;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 

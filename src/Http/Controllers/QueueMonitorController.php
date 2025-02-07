@@ -1,8 +1,8 @@
 <?php
 
-namespace Frogtummy\QueueMonitor\Http\Controllers;
+namespace QBeacon\QueueMonitor\Http\Controllers;
 
-use Frogtummy\QueueMonitor\Models\QueueMonitor;
+use QBeacon\QueueMonitor\Models\QueueMonitor;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Http\Request;
 
