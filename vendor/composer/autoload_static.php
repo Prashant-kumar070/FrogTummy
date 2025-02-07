@@ -7,9 +7,9 @@ namespace Composer\Autoload;
 class ComposerStaticInit0227df081d0a2b0f140060873a94485b
 {
     public static $prefixLengthsPsr4 = array (
-        'F' => 
+        'Q' => 
         array (
-            'QBeacon\\QueueMonitor\\' => 23,
+            'QBeacon\\QueueMonitor\\' => 21,
         ),
     );
 

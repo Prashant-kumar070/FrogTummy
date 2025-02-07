@@ -32,6 +32,6 @@ class QueueMonitorServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
         // ✅ Load Package Views
-        $this->loadViewsFrom(__DIR__.'/../views', 'queue-monitor');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'queue-monitor');
     }
 }

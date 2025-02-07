@@ -1,6 +1,6 @@
 <?php
 
-namespace Frogtummy\QueueMonitor\Models;
+namespace QBeacon\QueueMonitor\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
