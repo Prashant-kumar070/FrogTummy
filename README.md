@@ -2,7 +2,8 @@
 
 QBeacon is a real-time dashboard for monitoring Laravel queued jobs. It provides an easy-to-use interface for tracking the status of your jobs, retrying failed ones, and gaining insights into your job processing.
 
-![QBeacon Dashboard](https://path-to-your-image/QBeacon-Dashboard.png)  <!-- Replace with actual URL of the image -->
+
+![Screenshot from 2025-02-10 23-44-20](https://github.com/user-attachments/assets/67a1f587-3d1d-41b5-8cf5-474badec0f0e)
 
 ---
 
